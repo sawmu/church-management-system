@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\logoutController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,3 +27,5 @@ Route::middleware([
         return view('admin.index');
     })->name('dashboard');
 });
+
+Route::get('/user/logout',[logoutController::class, 'Logout'])->name('user.logout');
