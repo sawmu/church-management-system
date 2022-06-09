@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Signin CMCC</title>
+    <title>Signin</title>
     <link rel="icon" type="image/x-icon" href="{{asset('backend/images/logo.png') }}">
 
     <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600,700,800,900" rel="stylesheet">
@@ -35,7 +35,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 text-center" style="background-size: cover;background-image: url(../../backend\/images/photo-long-3.jpg)">
-                    <div class="pr-3 auth-right"><a class="btn btn-rounded btn-outline-primary btn-outline-email btn-block btn-icon-text" ><i class="i-Mail-with-At-Sign"></i> Sign up with Email</a><a class="btn btn-rounded btn-outline-google btn-block btn-icon-text"><i class="i-Google-Plus"></i> Sign up with Google</a><a class="btn btn-rounded btn-block btn-icon-text btn-outline-facebook"><i class="i-Facebook-2"></i> Sign up with Facebook</a></div>
+                    <div class="pr-3 auth-right"><a  href="{{ route('register') }}" class="btn btn-rounded btn-outline-primary btn-outline-email btn-block btn-icon-text" ><i class="i-Mail-with-At-Sign"></i> Sign up with Email</a><a class="btn btn-rounded btn-outline-google btn-block btn-icon-text"><i class="i-Google-Plus"></i> Sign up with Google</a><a href="{{ url('auth/facebook') }}" class="btn btn-rounded btn-block btn-icon-text btn-outline-facebook"><i class="i-Facebook-2"></i> Sign up with Facebook</a></div>
                 </div>
             </div>
         </div>
