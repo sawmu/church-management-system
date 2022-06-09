@@ -18,7 +18,7 @@
                     <div class="pl-3 auth-right">
                         <div class="auth-logo text-center mt-4"><img src="../../backend/images/logo.png" alt=""></div>
                         <div class="flex-grow-1"></div>
-                        <div class="w-100 mb-4"><a class="btn btn-outline-primary btn-block btn-icon-text btn-rounded" href="{{ route('login') }}"><i class="i-Mail-with-At-Sign"></i> Sign in with Email</a><a class="btn btn-outline-google btn-block btn-icon-text btn-rounded"><i class="i-Google-Plus"></i> Sign in with Google</a><a class="btn btn-outline-facebook btn-block btn-icon-text btn-rounded"><i class="i-Facebook-2"></i> Sign in with Facebook</a></div>
+                        <div class="w-100 mb-4"><a class="btn btn-outline-primary btn-block btn-icon-text btn-rounded" href="{{ route('login') }}"><i class="i-Mail-with-At-Sign"></i> Sign in with Email</a><a href="{{ url('auth/google') }}" class="btn btn-outline-google btn-block btn-icon-text btn-rounded"><i class="i-Google-Plus"></i> Sign in with Google</a><a href="{{ url('auth/facebook') }}" class="btn btn-outline-facebook btn-block btn-icon-text btn-rounded"><i class="i-Facebook-2"></i> Sign in with Facebook</a></div>
                         <div class="flex-grow-1"></div>
                     </div>
                 </div>
